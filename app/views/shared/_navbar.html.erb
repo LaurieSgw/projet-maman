@@ -1,0 +1,26 @@
+<div class="navbar navbar-lewagon " >
+  <div class="nav container-fluid">
+      <%= link_to root_path, class: "navbar-brand img" do %>
+        <%= image_tag "logo.png", alt: "Logo-navbar" %>
+      <% end %>
+
+
+    <div>
+        <ul class="nav">
+            <li>
+              <%= link_to "Qui suis-je ?", root_path, class: "nav-link nav-text" %>
+            </li>
+            <li>
+              <%= link_to "Prestations & Tarifs", prestations_path , class: "nav-link  nav-text" %>
+            </li>
+            <li >
+            <%= link_to "Contact", contact_path , class: "nav-link nav-text" %>
+            </li>
+            <li>
+            <%= link_to "Prendre rendez-vous", contact_path , class: "nav-link nav-button-orange" %>
+            </li>
+          </ul>
+    </div>
+
+  </div>
+</div>

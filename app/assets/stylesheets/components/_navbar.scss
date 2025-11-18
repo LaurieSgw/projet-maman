@@ -1,0 +1,43 @@
+.navbar-lewagon {
+  background:$green;
+  display: flex;
+
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 100px;
+  background-size: cover;
+  height: 80px;
+  width: 100px;
+}
+
+
+.navbar-home-fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.nav-text{
+  color: $light-yellow;
+  display: flex;
+  columns: 4;
+
+    &:hover{
+      color: $orange;
+
+    }
+}
+
+.nav-button-orange {
+  background-color: $orange;
+  color: $green;
+
+    &:hover{
+      color: $orange;
+      background-color: $green-light;
+    }
+}
