@@ -1,6 +1,6 @@
 .navbar-lewagon {
   background:$green;
-  display: flex;
+  display:flex;
 
 }
 
@@ -11,8 +11,9 @@
 .navbar-lewagon .navbar-brand img {
   width: 100px;
   background-size: cover;
-  height: 80px;
+  height: 70px;
   width: 100px;
+  margin-left: 10%;
 }
 
 
@@ -24,7 +25,6 @@
 .nav-text{
   color: $light-yellow;
   display: flex;
-  columns: 4;
 
     &:hover{
       color: $orange;
@@ -35,9 +35,13 @@
 .nav-button-orange {
   background-color: $orange;
   color: $green;
+  border-radius: 25px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
 
     &:hover{
       color: $orange;
-      background-color: $green-light;
+      background-color: $light-yellow;
     }
 }
