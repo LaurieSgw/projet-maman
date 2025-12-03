@@ -1,0 +1,30 @@
+.banner {
+  height: auto;
+  width: 100%;
+  background: fixed;
+}
+
+.banner-text {
+  color: $dark-yellow;
+  font-family: $headers-font;
+  font-size: 50px;
+  position: absolute;
+  top: 23%;
+  left: 17%;
+}
+
+.banner-rdv {
+  height: auto;
+  width: 100%;
+  position: sticky;
+}
+
+.banner-rdv-text {
+  color: $dark-yellow;
+  font-family: $headers-font;
+  font-size: 35px;
+  position:absolute;
+  bottom: 20%;
+  left: 10%;
+
+}

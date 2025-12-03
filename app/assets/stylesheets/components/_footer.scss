@@ -1,15 +1,29 @@
 .footer {
   background:$green;
-  display:flex;
-  margin-top: 30%;
-  height: 100px;
+  height: 70px;
+  position: sticky
+
 
 }
 
-.footer-logo {
+.footer-img {
   width: 100px;
   background-size: cover;
   height: 70px;
   width: 100px;
-  margin-left: 10%;
+
+}
+
+
+.footer-text{
+  color: $light-yellow;
+  text-decoration: none;
+  align-self: center;
+  color:$light-yellow;
+
+
+    &:hover{
+      color: $orange;
+
+    }
 }

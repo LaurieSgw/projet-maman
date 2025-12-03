@@ -1,13 +1,17 @@
 .button-orange {
-   background-color: $orange;
+  background-color: $orange;
   color: $green;
   border-radius: 25px;
   padding-top: 5%;
   padding-bottom: 5%;
+  text-decoration: none;
+  padding: 20px;
 
 
     &:hover{
       color: $orange;
       background-color: $light-yellow;
+      text-decoration: none;
+
     }
 }
