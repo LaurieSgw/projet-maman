@@ -1,23 +1,23 @@
-<div class="container">
-  <h1>Contact Form</h1>
+<div class="container card card-formation my-3">
+  <h4 class="my-3 text-center fst-italic ">Merci de remplir ce formulaire afin de prendre contact: </h4>
   <%= form_for @form do |f| %>
-    <div class="col-md-6">
-      <%= f.label :name %></br>
-      <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
+    <div>
+      <%= f.label :Nom %></br>
+      <%= f.text_field  :name, required: true, class: "contact-form-text-area form-control " %></br>
 
-      <%= f.label :email %></br>
-      <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
+      <%= f.label :Mail %></br>
+      <%= f.text_field :email, required: true, class: "contact-form-text-area form-control" %></br>
 
-      <%= f.label :message %></br>
-      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area",
-            placeholder: "Send me a message"%></br>
+      <%= f.label :Message %></br>
+      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: " form-control ontact-form-text-area fst-italic ",
+            placeholder: "Décrivez moi votre besoin et vos questions s'il y en a..."%></br>
 
       <div class= "d-none">
         <%= f.label :nickname %>
         <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
       </div>
 
-      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+      <%= f.submit 'Envoyer votre formulaire', class: 'button-form my-3' %>
     </div>
   <% end %>
 </div>

@@ -1,27 +1,24 @@
-<div>
-  <div class="container">
-    <h1 class="my-5">Prendre rendez-vous</h1>
-    <div>
-    <h3> Je souhaite être accompagné.e</h3>
-    <p> Si vous souhaitez prendre rendez-vous, je vous invite à m’écrire via le formulaire de contact afin de m’expliquer au mieux votre besoin et vos attentes ainsi que la prestation qui vous intéresse.  Je reviendrai ensuite vers vous dans un délai de 7 jours ouvrés pour vous confirmer la prise en charge et vous proposer plusieurs créneaux de rendez-vous.   Le rendez-vous peut s’effectuer en présentiel  (St jean - 31240) ou par visio selon votre convenance.   La prise de contact ne vous engage évidemment en rien, cependant si après plusieurs échanges vous ne souhaitez pas mettre en place d’accompagnement, je vous remercie de me le communiquer pour éviter toute relance inutile.   </p>
+<div class="container">
+ <h1 class="my-3">Prendre rendez-vous</h1>
+  <div class="row">
+    <div class="col-6 my-3" >
+      <h3> Je souhaite être accompagné.e</h3>
+      <p> Si vous souhaitez prendre rendez-vous, je vous invite à m’écrire via le formulaire de contact afin de m’expliquer au mieux votre besoin et vos attentes ainsi que la prestation qui vous intéresse. Je reviendrai ensuite vers vous dans un délai de 7 jours ouvrés pour vous confirmer la prise en charge et vous proposer plusieurs créneaux de rendez-vous. Le rendez-vous peut s’effectuer en présentiel  (St jean - 31240) ou par visio selon votre convenance. La prise de contact ne vous engage évidemment en rien, cependant si après plusieurs échanges vous ne souhaitez pas mettre en place d’accompagnement, je vous remercie de me le communiquer pour éviter toute relance inutile. </p>
+      <div class="my-5">
+      <h4>Des questions ?</h4>
+        <p> Dans le cas où vous souhaitez échanger et me poser des questions avant de vous lancer, je vous invite à me contacter :par téléphone, au 06 15 750 500par mail, à l’adresse suivante : equilibreetmoi.contact@gmail.com
+        </p>
+      </div>
     </div>
-    <div class="my-5">
-    <h4>Des questions ?</h4>
-      <p> Dans le cas où vous souhaitez échanger et me poser des questions avant de vous lancer,  je vous invite à me contacter :  par téléphone, au 06 15 750 500  par mail, à l’adresse suivante : equilibreetmoi.contact@gmail.com
-      </p>
+
+    <div class="col-6 d-flex justify-content-center">
+    <%= render "shared/forms/new" %>
     </div>
   </div>
-
-  <div>
-    <%= image_tag "prdrdv-img.jpeg", alt: "b-prendrerdv", class:"banner-rdv my-0"%>
-    <h1 class="banner-rdv-text">"Le meilleur moment pour passer à l'action, c'est maintenant !"</h1>
-  </div>
-   <div>
-
-   <%= render "shared/forms/new"%>
 </div>
+  <%= image_tag "prdrdv-img.jpeg", alt: "b-prendrerdv", class:"banner"%>
+      <h1 class="banner-rdv-text">"Le meilleur moment pour passer à l'action, c'est maintenant !"</h1>
+    </div>
 
-   </div>
 
-
-</div>
+ <div>
