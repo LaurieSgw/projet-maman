@@ -1,17 +1,39 @@
 .banner {
-  width: 100%;
+position: relative;
 }
 
-.banner-text {
+.banner-home {
+  width: 100%;
+  position: relative;
+}
+
+.banner-home-text {
   font-size: 50px;
   position: absolute;
-  top: 23%;
+  top: 35%;
   left: 17%;
 }
+
+
+
+.banner-rdv {
+  width: 100%;
+  position: relative;
+}
+
 
 .banner-rdv-text {
   font-size: 35px;
   position: absolute;
-  bottom: 5%
+  bottom: 35%;
+  left: 10%;
+
+}
+
+
+.banner-contact{
+  width: 100%;
+  height: 100%;
+  position: relative;
 
 }

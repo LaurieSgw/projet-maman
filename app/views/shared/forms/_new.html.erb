@@ -1,5 +1,5 @@
-<div class="container card card-formation my-3">
-  <h4 class="my-3 text-center fst-italic ">Merci de remplir ce formulaire afin de prendre contact: </h4>
+<div class="container card card-formulaire my-3">
+  <h5 class="py-3 text-center">Je souhaite prendre contact </h5>
   <%= form_for @form do |f| %>
     <div>
       <%= f.label :Nom %></br>
@@ -17,7 +17,7 @@
         <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
       </div>
 
-      <%= f.submit 'Envoyer votre formulaire', class: 'button-form my-3' %>
+       <%= f.submit 'Envoyer le formulaire', class: 'button-form my-3 d-flex align-items-center' %>
     </div>
   <% end %>
 </div>
