@@ -32,6 +32,7 @@ gem 'mail_form'
 
 gem "dotenv-rails"
 gem "cloudinary"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
