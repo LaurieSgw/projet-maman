@@ -266,6 +266,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   mail_form
+  nokogiri (~> 1.18.9)
   puma (>= 5.0)
   rails (~> 7.0.10)
   rubygems-update (= 3.3.22)
@@ -282,4 +283,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.4.7
+   2.3.22
