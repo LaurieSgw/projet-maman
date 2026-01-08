@@ -8,12 +8,13 @@ class FormsController < ApplicationController
     @form = Form.new(form_params)
     @form.request = request
 
-    if @form.deliver
-      redirect_to prendrerdv_path, notice: "Message envoyé avec succès !"
-    else
-      flash.now[:alert] = "Une erreur est survenue"
-      render :new, status: :unprocessable_entity
-    end
+   if @form.deliver
+    redirect_to prendrerdv_path, notice: "Message envoyé !"
+  else
+    flash.now[:error] = "Erreur lors de l'envoi"
+    render "pages/prendrerdv", status: :unprocessable_entity
+  end
+
   end
 
   private
