@@ -7,12 +7,11 @@ class Form < MailForm::Base
 
   # Declare the e-mail headers. It accepts anything the mail method
   # in ActionMailer accepts.
-  ddef headers
+  def headers
     {
-      subject: "Demande pour un Appel Découverte",
-      to: ENV['CONTACT_EMAIL'],       # <- ton email qui reçoit le message
-      from: ENV['SMTP_EMAIL'],        # <- email vérifié sur Brevo
-      reply_to: email                 # <- email du visiteur
-    }
+      :subject => "Demande pour un Appel Découverte",
+      :to => "lausegalo@gmail.com",
+      :from => "lausegalo@gmail.com"
+        }
   end
 end
