@@ -28,7 +28,7 @@
   background-color: $green-light;
   border-color: $green;
   border-radius: 30px;
-  padding: 2%;
+  padding: 4%;
   margin-left: 10%;
   margin-right: 10%;
 
@@ -63,9 +63,10 @@ justify-content: end;
 }
 
 .imgV1 {
-height: 400px;
+height: 300px;
 width: 300px;
 display: flex;
 justify-content: center;
-
+padding: 10%;
+border-radius: 30%;
 }
